@@ -1,0 +1,30 @@
+
+.papa-bear {
+    display: flex;
+}
+
+.papa-bear div {
+    background-color: blanchedalmond;
+    border: 5px solid black;
+    height: 100px;
+    flex: 1;
+}
+
+.papa-bear .two {
+    flex: 2;
+}
+
+.dos {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+}
+
+div .mini {
+    background-color: silver;
+    border: 2px solid black;
+    margin: 23px;
+    height: 50px;
+    flex: 1;
+}
