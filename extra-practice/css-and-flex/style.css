@@ -1,6 +1,11 @@
 
+h1 {
+    text-align: center;
+}
+
 .papa-bear {
     display: flex;
+    border: 5px solid gray;
 }
 
 .papa-bear div {
@@ -14,17 +19,18 @@
     flex: 2;
 }
 
-.dos {
-    font-size: 25px;
-    font-weight: 700;
-    text-align: center;
-    color: black;
-}
-
 div .mini {
     background-color: silver;
     border: 2px solid black;
     margin: 23px;
     height: 50px;
-    flex: 1;
+    display: flex;
+}
+
+.dos {
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+    justify-content: center;
+    align-items: center;
 }
