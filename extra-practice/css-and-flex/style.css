@@ -1,6 +1,9 @@
 
-h1 {
+.header {
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .papa-bear {
@@ -11,8 +14,14 @@ h1 {
 .papa-bear div {
     background-color: blanchedalmond;
     border: 5px solid black;
-    height: 100px;
+    height: 50px;
     flex: 1;
+    align-items: center;
+}
+
+.boxes {
+    display: flex;
+    align-items: center;
 }
 
 .papa-bear .two {
@@ -22,15 +31,45 @@ h1 {
 div .mini {
     background-color: silver;
     border: 2px solid black;
-    margin: 23px;
-    height: 50px;
     display: flex;
+    margin: 10px;
+    height: 25px;
 }
 
 .dos {
-    font-size: 25px;
     font-weight: 700;
     color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: aliceblue;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.flexseal {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.flexsealone,
+.flexsealtwo,
+.flexsealthree {
+    display: flex;
+    border: 2px solid black;
+    flex: 1;
+    height: 50px;
+    background-color: #a5e0a5;
     justify-content: center;
     align-items: center;
 }
